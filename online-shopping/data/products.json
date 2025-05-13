@@ -1,0 +1,22 @@
+[
+    { "id": "p1", "name": "Product 1", "price": 499, "image": "product1.jpg" },
+    { "id": "p2", "name": "Product 2", "price": 899, "image": "product2.jpg" },
+    { "id": "p3", "name": "Product 3", "price": 1299, "image": "product3.jpg" },
+    { "id": "p4", "name": "Product 4", "price": 699, "image": "product4.jpg" },
+    { "id": "p5", "name": "Product 5", "price": 599, "image": "product5.jpg" },
+    { "id": "p6", "name": "Product 6", "price": 1499, "image": "product6.jpg" },
+    { "id": "p7", "name": "Product 7", "price": 799, "image": "product7.jpg" },
+    { "id": "p8", "name": "Product 8", "price": 349, "image": "product8.jpg" },
+    { "id": "p9", "name": "Product 9", "price": 1999, "image": "product9.jpg" },
+    { "id": "p10", "name": "Product 10", "price": 999, "image": "product10.jpg" },
+    { "id": "p11", "name": "Product 11", "price": 899, "image": "product11.jpg" },
+    { "id": "p12", "name": "Product 12", "price": 299, "image": "product12.jpg" },
+    { "id": "p13", "name": "Product 13", "price": 149, "image": "product13.jpg" },
+    { "id": "p14", "name": "Product 14", "price": 1599, "image": "product14.jpg" },
+    { "id": "p15", "name": "Product 15", "price": 1349, "image": "product15.jpg" },
+    { "id": "p16", "name": "Product 16", "price": 749, "image": "product16.jpg" },
+    { "id": "p17", "name": "Product 17", "price": 450, "image": "product17.jpg" },
+    { "id": "p18", "name": "Product 18", "price": 2399, "image": "product18.jpg" },
+    { "id": "p19", "name": "Product 19", "price": 549, "image": "product19.jpg" },
+    { "id": "p20", "name": "Product 20", "price": 899, "image": "product20.jpg" }
+]
