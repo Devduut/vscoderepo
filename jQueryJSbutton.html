@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript and jQuery Button Click</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+    }
+    #message, #jquery-message {
+      margin-top: 20px;
+      font-size: 18px;
+      color: green;
+    }
+  </style>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+  <h1>Button Click Events</h1>
+
+  <!-- JavaScript Button -->
+  <button onclick="showMessage()">JavaScript Button</button>
+  <div id="message"></div>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil repudiandae inventore atque provident unde itaque iure quidem repellat ratione. Laborum animi et eius reprehenderit!</p>
+  <!-- jQuery Button -->
+  <button id="jqueryButton">jQuery Button</button>
+  <div id="jquery-message"></div>
+
+  <script>
+    // JavaScript click event
+    function showMessage() {
+      document.getElementById("message").textContent = "JavaScript button was clicked!";
+    }
+
+    // jQuery click event
+    $(document).ready(function() {
+      $("#jqueryButton").click(function() {
+        $("#jquery-message").text("jQuery button was clicked!");
+      });
+
+      $("p").click(function() {
+        $(this).css("color", "blue");
+        $(this).css("font-size", "20px");
+        $(this).css("background-color", "lightyellow");
+        $(this).hover(function() {
+          $(this).css("color", "red");
+        }, function() {
+          $(this).css("color", "blue");
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
